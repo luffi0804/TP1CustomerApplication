@@ -5,4 +5,9 @@
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties/>
   </persistence-unit>
+  <persistence-unit name="TP1CustomerApplication-ejbPU2" transaction-type="JTA">
+    <jta-data-source>com.udea.modelo</jta-data-source>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties/>
+  </persistence-unit>
 </persistence>
